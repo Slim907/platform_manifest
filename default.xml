@@ -28,6 +28,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="SlimRoms/android_development" remote="github" revision="kk4.4" />
+  <project name="Slim907/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="vkk" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -426,10 +427,11 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4-caf" />
+  <project path="platform_manifest" name="Slim907/platform_manifest" remote="github" revision="kk4.4-caf" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/slim" name="Slim907/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/motorola" name="Slim907/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
