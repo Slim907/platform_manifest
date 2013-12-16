@@ -25,7 +25,7 @@ for google, exynos and non qcom devices:
 
 for qcom devices which are using CodeAuroraForum trees:
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4-caf
+	repo init -u git://github.com/Slim907/platform_manifest.git -b kk4.4-caf
 
 
 
