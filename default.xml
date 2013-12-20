@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Slim907/android_build" remote="github" revision="kk4.4" >
+  <project path="build" name="gzroms/android_build" remote="github" revision="gzr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -239,7 +239,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/base" name="gzroms/frameworks_base" remote="github" revision="gzr" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -328,7 +328,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="kk4.4" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="gzroms/packages_apps_Settings" remote="github" revision="kk4.4" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="kk4.4" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -433,7 +433,7 @@
   <project path="platform_manifest" name="Slim907/platform_manifest" remote="github" revision="kk4.4-caf" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="Slim907/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/gzr" name="gzroms/vendor_gzr" remote="github" revision="kk4.4" />
  
 
   <!-- Slim OTA -->
@@ -468,7 +468,15 @@
   <project name="SlimRoms/kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="kk4.4" />
   <project name="SlimRoms/hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="kk4.4" />
   <project name="SlimRoms/hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="github" revision="kk4.4" />
-  <project name="Slim907/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="cm-11.0" />
+  <project name="gzroms/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="gzr" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
 
+  <!-- Stats App -->
+  <project path="packages/apps/DU-Stats" name="gzroms/packages_apps_DU-Stats" remote="github" revision="gzr"/>
+
+  <!-- GZWalls -->
+  <project path="packages/apps/CMWallpapers" name="gzroms/android_packages_apps_CMWallpapers" remote="github" revision="v44" />
+  
+  <!-- Calender Widget -->
+  <project path="packages/apps/MonthCalendarWidget" name="gzroms/android_packages_apps_MonthCalendarWidget" remote="github" revision="gzr" />
 </manifest>
